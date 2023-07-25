@@ -1,5 +1,5 @@
 const ig = {
-  charset: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+_',
+  charset: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_',
   encode: id => {
     id = BigInt(id.toString())
     let result = ''
